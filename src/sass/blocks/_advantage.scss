@@ -1,0 +1,37 @@
+.advantage {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f3f3f3;
+    &__banner {
+        text-align: center;
+    }
+    &__header {
+        color: $main-color;
+        font-weight: bold;
+        line-height: 22px;
+    }
+    &__subheader {
+        line-height: 22px;
+        width: 450px;
+    }
+    &__flex {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 70px;
+        align-items: center;
+    }
+    &__logo {
+        margin-right: 15px;
+        min-width: 64px;
+        min-height: 65px;
+            img {
+                width: 100%;
+            }
+    }
+}
+
+.block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
