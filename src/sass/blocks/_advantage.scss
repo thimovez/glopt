@@ -3,6 +3,7 @@
     padding-bottom: 50px;
     background-color: #f3f3f3;
     &__banner {
+        font-weight: 700п;
         text-align: center;
     }
     &__header {
@@ -11,6 +12,7 @@
         line-height: 22px;
     }
     &__subheader {
+        font-weight: 300;
         line-height: 22px;
         width: 450px;
     }
