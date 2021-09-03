@@ -1,0 +1,14 @@
+@mixin orange_line {
+    border: 1px solid $main-color;
+    width: 150px;
+    display: block;
+    margin: 20px auto;
+}  
+
+@mixin circle {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background: transparent;
+}

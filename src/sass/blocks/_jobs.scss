@@ -1,4 +1,40 @@
 .jobs {
     padding-top: 50px;
     padding-bottom: 50px;
+    &__banner {
+        font-weight: 700;
+        text-align: center;
+    }
+    &__subheader {
+        font-weight: 300;
+        text-align: center;
+        line-height: 24px;
+    }
+    &__wrapper {
+        display: flex;
+    }
+}
+
+.philosophy {
+    margin-top: 40px;
+    width: 381px;
+    &__header {
+        font-weight: 700;
+        color: $main-color;
+        text-align: center;
+        margin-top: 30px;
+    }
+    &__descriprion {
+        width: 370px;
+        font-weight: 300;
+        line-height: 22px;
+        margin-top: 20px;
+    }
+}
+
+
+
+
+.line {
+    @include orange_line;
 }
